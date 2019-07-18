@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    -->
+    <script src="slider.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search_music">
+            <h2 id="logo-mp3" style="cursor: pointer">
+                <div class="word Z">Z</div>
+                <div class="word I">I</div>
+                <div class="word N">N</div>
+                <div class="word G">G</div>
+                mp3
+            </h2>
+            <form action="">
+                <i class="fas fa-search"></i>
+                <input style="height: 30px;width:400px;outline: none;" type="text" placeholder="Nhập tên bài hát, ca sĩ...">
+            </form>
+            <div id="login">
+                <i class="fas fa-user"></i>
+                <h4 style="cursor: pointer">Đăng nhập</h4>
+            </div>
+            
+        </div>
+
+        <div class="menu">
+            <ul class="menu-ul">
+                <li><a href="#" style=" color: #9b59b6;">Tranng chủ</a></li>
+                <li><a href="#">#Zingchart
+
+                    <table class="menu-child1">
+                        <tr>
+                            <th>#Zingchart</th>
+                            <th>Tuần</th>
+                            <th>US-uk chart</th>
+                            <th>kpop chart</th>
+                        </tr>
+                        <tr>
+                            <td>Bài hát</td>
+                            <td>Bài hát</td>
+                            <td>Bài hát</td>
+                            <td>Bài hát</td>
+                        </tr>
+                        <tr>
+                            <td>MV</td>
+                            <td>MV</td>
+                            <td>MV</td>
+                            <td>MV</td>
+                        </tr>
+                    </table>
+
+                </a></li>
+                <li><a href="#">top 100</a></li>
+                <li><a href="#">Chủ đề</a></li>
+                <li><a href="#">MV</a></li>
+                <li><a href="#">Album</a></li>
+                <li><a href="#">Nghệ sĩ</a></li>
+                <li><a href="#">Nhạc cá nhân</a></li>
+            </ul>
+        </div>
+
+        <div class="slider">
+            <img src="image/slider/sontung.jpg" class="slide" stt="0">
+            <img src="image/slider/jack.jpg" class="slide" stt="1" style="display:none;">
+            <img src="image/slider/huongtram.jpg" class="slide" stt="2" style="display:none;">
+            <img src="image/slider/huongthuylinh.jpg" class="slide" stt="3" style="display:none;">
+            <img src="image/slider/dota.jpg" class="slide" stt="3" style="display:none;">
+            <a href="#" class=" btn prev"><i class="fas fa-backward"></i></a>
+            <a href="#" class="btn next"><i class="fas fa-forward"></i></a>
+        </div>
+
+
+        <div class="row">
+            <div class="name-title">
+                <h3>Thể loại nhạc</h3>
+            </div>
+            <div class="album-square">
+    
+                    <div class="album-item" style="background-image: url('image/pop.jpg');">
+                        <div class="overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="album-item" style="background-image: url('image/remix.jpg');">
+                        <div class="overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="album-item" style="background-image: url('image/rock.jpg');">
+                        <div class="overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="album-item" style="background-image: url('image/bolero.jpg');">
+                        <div class="overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+            </div>
+            <div class="name-title">
+                    <h3>Nhạc cute phô mai que</h3>
+            </div>
+                <div class="album-square">
+        
+                        <div class="album-item" style="background-image: url('image/girl1.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/girl2.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/girl3.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/girl4.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="name-title top">
+                    <h3>Top 100 <i class="fas fa-chevron-right"></i></h3>
+                </div>
+                <div class="album-square">
+        
+                        <div class="album-item" style="background-image: url('image/top100/nhachan.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/top100/nhacpiano.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/top100/nhacthieunhi.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                        <div class="album-item" style="background-image: url('image/top100/nhactrutinh.jpg');">
+                            <div class="overlay">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                        </div>
+                </div>
+                
+        </div>
+    
+        <div class="name-header">Bài hát mới</div>
+        <div class="list-new-music">
+            <div class="two-col">
+                <div class="left">
+                        <div class="luot-xem">Lượt xem</div>
+                            <div class="col-left">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">10,722</div>
+                            </div>
+                            <div class="col-left">
+                                    <div class="video"><i class="fas fa-video"></i></div>
+                                    <div class="name-item1">
+                                        <div class="song-title">Hãy trao cho anh</div>
+                                        <div class="singer">Sơn Tùng MTP</div>
+                                    </div>
+                                    <div class="view-count">9,922</div>
+                            </div>
+                            <div class="col-left">
+                                    <div class="video"><i class="fas fa-video"></i></div>
+                                    <div class="name-item1">
+                                        <div class="song-title">We don't talk anymore</div>
+                                        <div class="singer">Charlie Puth</div>
+                                    </div>
+                                    <div class="view-count">8,452</div>
+                            </div>
+                            <div class="col-left">
+                                    <div class="video"><i class="fas fa-video"></i></div>
+                                    <div class="name-item1">
+                                        <div class="song-title">Sóng gió</div>
+                                        <div class="singer">Jack</div>
+                                    </div>
+                                    <div class="view-count">7,722</div>
+                            </div>
+                            <div class="col-left">
+                                        <div class="video"><i class="fas fa-video"></i></div>
+                                        <div class="name-item1">
+                                            <div class="song-title">Sóng gió</div>
+                                            <div class="singer">Jack</div>
+                                        </div>
+                                        <div class="view-count">7,242</div>
+                            </div>
+                </div>
+                <div class="right">
+                        <div class="luot-xem">Lượt xem</div>
+                        <div class="col-right">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">7,122</div>
+                        </div>
+                        <div class="col-right">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">6,722</div>
+                        </div>
+                        <div class="col-right">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">6,402</div>
+                        </div>
+                        <div class="col-right">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">5,722</div>
+                        </div>
+                        <div class="col-right">
+                                <div class="video"><i class="fas fa-video"></i></div>
+                                <div class="name-item1">
+                                    <div class="song-title">Sóng gió</div>
+                                    <div class="singer">Jack</div>
+                                </div>
+                                <div class="view-count">5,222</div>
+                        </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="box-chu-de">
+            <div id="chu-de">
+                    <h2>Chủ Đề & Thể Loại</h2>
+                    <div id="chu-de-phai">
+                        <h3>Chọn lọc</h3>
+                        <h3>Chủ đề</h3>
+                        <h3>Thể loại</h3>
+                    </div>
+            </div>
+            <div id="box-the-loai">
+                    <div id="item">
+                        <img src="image/tenNuoc/nhacviet.png">
+                        <h4>Nhạc Việt</h4>
+                    </div>
+                    <div id="item">
+                            <img src="image/tenNuoc/nhacTQ.jpg">
+                            <h4>Nhạc Hoa</h4>
+                    </div>
+                    <div id="item">
+                            <img src="image/tenNuoc/nhacHQ.jpg">
+                            <h4>Nhạc Hàn</h4>
+                    </div>
+                    <div id="item">
+                            <img src="image/tenNuoc/nhacAU.jpg">
+                            <h4>Nhạc Âu</h4>
+                    </div>
+            </div>           
+        </div>
+
+                        
+
+
+
+           <div id="header3">Nghệ Sĩ Nổi Bật</div>
+            <div class="nghe-si">
+                    <i class="fas fa-chevron-left"></i>
+                <div class="box">
+                    <div class="info">
+                            <img src="image/baoanh.jpg">
+                            <span>Bảo Anh</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="info">
+                            <img src="image/chidan.jpg">
+                            <span>Chi Dân</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="info">
+                            <img src="image/sontung.jpg">
+                            <span>Sơn Tùng MTP</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="info">
+                            <img src="image/bichphuong.jpg">
+                            <span>Bích Phương</span>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right"></i>
+            </div> 
+
+            
+            <div class="footer-img">
+                <img src="image/footer-mp3.jpg" >
+            </div>
+            <div class="footer">
+                <img src="image/icon-mp3.jpg" style="width: 50px;height: 50px; border-radius: 50%;">
+                <h5>Một sản phẩm của Thông Tuấn Kiệt</h5>
+                <ul>
+                    <li>Giới thiệu</li>
+                    <li>Liên hệ</li>
+                    <li>Quảng cáo</li>
+                    <li>Góp ý</li>
+                    <li>Thỏa thuận sử dụng</li>
+                </ul>
+            </div>
+        
+
+</div>
+
+</body>
+</html>
